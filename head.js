@@ -6,6 +6,8 @@ const head = (x) => {
     console.log('undefined');
   }
 };
+
+//test run
 head([4, 5, 6]);
 head(["Hello", "Lighthouse", "Labs"])
 head([]);

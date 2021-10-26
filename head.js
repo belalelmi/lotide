@@ -11,10 +11,10 @@ head(["Hello", "Lighthouse", "Labs"])
 head([]);
 
 
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual[0]} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual[0]} !== ${expected}`);
-  }
-};
+// const assertEqual = function (actual, expected) {
+//   if (actual === expected) {
+//     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+//   } else {
+//     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
+//   }
+// };

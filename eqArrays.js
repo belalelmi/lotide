@@ -7,7 +7,7 @@ const eqArrays = (a1, b1) => {
   for (let x = 0; x < a1.length; x++) {
     // checking to see if items are not the same throughout the loop
     if (a1[x] !== b1[x]) {
-      return false;  // return false is item(?) in a1 != item(?) in b1
+      return false;  // check for item(?) in array1 is not === item(?) in b1
     };
   }
 

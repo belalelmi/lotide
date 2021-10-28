@@ -43,4 +43,4 @@ const assertArraysEqual = (a1, b1) => {
 
 
 // assertArraysEqual(letterPositions("lighthouse abs").l, [0])
-assertArraysEqual(letterPositions("belal")['e'], [1]);
+// assertArraysEqual(letterPositions("belal")['e'], [1]);

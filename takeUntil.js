@@ -5,7 +5,7 @@ const takeUntil = function (array, callback) {
     if (!callback(item)) {
       result.push(item);
     } else {
-      break; // if true then break ... used to perform the "split"
+      break;
     }
   }
   return result;

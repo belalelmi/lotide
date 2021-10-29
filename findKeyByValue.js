@@ -8,6 +8,15 @@ const findKeyByValue = (object, value) => {
 };
 
 
+const assertArraysEqual = (a1, b1) => {
+  if (eqArrays(a1, b1)) {
+    console.log(`✅ Assertion Passed: ${a1} === ${b1}`);
+  } else {
+    console.log(`🛑 Assertion Failed: ${a1} !== ${b1}`);
+  };
+};
+
+
 const eqArrays = (a1, b1) => {
   if (a1.length !== b1.length) {
     return false;
@@ -18,14 +27,6 @@ const eqArrays = (a1, b1) => {
     }
   };
   return true;
-};
-
-const assertArraysEqual = (a1, b1) => {
-  if (eqArrays(a1, b1)) {
-    console.log(`✅ Assertion Passed: ${a1} === ${b1}`);
-  } else {
-    console.log(`🛑 Assertion Failed: ${a1} !== ${b1}`);
-  };
 };
 
 const bestTVShowsByGenre = {

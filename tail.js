@@ -3,4 +3,4 @@ const tail = (x) => {
   return y;
 };
 
-module.export = tail;
+module.exports = tail;

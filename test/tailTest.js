@@ -1,6 +1,5 @@
 const { assert } = require('chai');
 const { it, describe } = require('mocha');
-const assertEqual = require('../assertEqual');
 const tail = require('../tail');
 
 

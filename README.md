@@ -26,7 +26,7 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-> - **head\***: accepts an array and returns the first element
+> - **head**: accepts an array and returns the first element
 > - **tail**: accepts an array and returns the same array, but with the first element removed
 > - **eqArrays**: accepts two arrays and returns true or false based on if they are equal
 > - **middle**: accepts an array and returns the middle element or elements as an array

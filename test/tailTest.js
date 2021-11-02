@@ -1,15 +1,15 @@
-const tail = require('../tail');
+const { assert } = require('chai');
+const { it, describe } = require('mocha');
 const assertEqual = require('../assertEqual');
+const tail = require('../tail');
 
 
-//test cases//
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-assertEqual(tail(words).length, 2);
-assertEqual(words.length, 3);
-// original array should still have 3 elements!
+describe("#tail", () => {
+  it("returns [2, 3] of [1, 2, 3]", () => {
+    assert.strictEqual((tail(['1', '2', '3'])), ['2', '3']);
+  });
+  it("returns '1' for length of tail['5', '6']", () => {
+    assert.strictEqual(tail(['5', '6']).length, 1);
+  });
 
-// also check tail(words) === ['Lighthouse', 'Labs']
-
-// tail([4, 5, 6, 6, 7, 8, 'fdasfadsfas', 44534534534]);
-// tail(["Hello", "Lighthouse", "Labs"]);
-// tail([]);
+});

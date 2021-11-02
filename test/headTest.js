@@ -2,7 +2,7 @@
 const { assert } = require('chai');
 const { it } = require('mocha');
 const assertEqual = require('../assertEqual');
-const head = require('../head')
+const head = require('../head');
 
 describe("#head", () => {
   it("should return 1 for the array [1, 2, 3]", () => {
